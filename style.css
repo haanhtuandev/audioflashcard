@@ -1,0 +1,19 @@
+.container {
+    display: column;
+    justify-content: space-around;
+}
+.studysection {
+    display: flex;
+    flex-direction: column;
+}
+.studysection button {
+    margin: auto;
+}
+.studysection .cardsection {
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.hidden {
+    display: none;
+}
