@@ -5,9 +5,23 @@
 .studysection {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.cardsection {
+    margin: 5%;
+    background-color: black;
+    color: white;
+}
+.card-navigation {
+    margin: auto;
+    margin-bottom: 20px;
 }
 .studysection button {
     margin: auto;
+    margin-top: 25px;
 }
 .studysection .cardsection {
     padding: 100px;
@@ -16,4 +30,8 @@
 }
 .hidden {
     display: none;
+}
+.level {
+    margin: auto;
+    margin-bottom: 20px
 }
