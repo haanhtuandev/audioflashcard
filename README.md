@@ -3,3 +3,7 @@ But the thing is, there is not much things you can do with a huge suitcase on yo
 The only thing that was accessible was my earphones.
 By using the buttons on my earphones i could change song, adjust the volume, and stop/play music. I asked myself, what if, just what if, I could make a flashcard app that allows user to control the learning process by simply clicking buttons.
 So, I made this little software.
+
+
+I hosted it on Netlify
+audioflash.netlify.app
