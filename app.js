@@ -181,7 +181,18 @@ document.addEventListener('click', () => {
 }, { once: true }); // Ensure this only runs once
 
 // Set up Media Session API
+document.addEventListener('keydown', (event) => {
+  // Get the key code of the pressed key
+  const key = event.key; 
 
+  // Check if the pressed key matches a specific key
+  if (key === 'Enter') {
+    // Handle Enter key press
+    addFlashcards();
+    clearInput();
+  }
+  // ... add more key checks as needed
+});
 
 
 

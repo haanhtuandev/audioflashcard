@@ -1,37 +1,104 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
 .container {
-    display: column;
-    justify-content: space-around;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
 }
-.studysection {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-color: whitesmoke;
-    border: 1px solid black;
-    border-radius: 10px;
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
 }
-.cardsection {
-    margin: 5%;
-    background-color: black;
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #007bff;
     color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
 }
-.card-navigation {
-    margin: auto;
-    margin-bottom: 20px;
+
+button:hover {
+    background: #0056b3;
 }
-.studysection button {
-    margin: auto;
-    margin-top: 25px;
+
+#study {
+    margin-top: 15px;
+    background: #28a745;
 }
-.studysection .cardsection {
-    padding: 100px;
-    display: flex;
-    justify-content: space-around;
+
+#study:hover {
+    background: #218838;
 }
+
+.studysection {
+    display: none;
+    margin-top: 20px;
+}
+
+.card-navigation button,
+.level button {
+    width: 48%;
+    margin: 5px 1%;
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: #f8f9fa;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.card-navigation button:hover,
+.level button:hover {
+    background: #e2e6ea;
+}
+
+.cardsection {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 .hidden {
     display: none;
-}
-.level {
-    margin: auto;
-    margin-bottom: 20px
 }
